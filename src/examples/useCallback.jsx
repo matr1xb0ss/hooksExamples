@@ -9,9 +9,13 @@ function useCallbackExample() {
     color: colored ? 'pink' : 'black'
   }
 
-  const generateItemsFromAPI = useCallback((indexNumber) => {
+  // const generateItemsFromAPI = useCallback((indexNumber) => {
+  //   return new Array(count).fill('').map((_, i) => `Element ${i + indexNumber}`)
+  // }, [count])
+
+  const generateItemsFromAPI = (indexNumber) => {
     return new Array(count).fill('').map((_, i) => `Element ${i + indexNumber}`)
-  }, [count])
+  }
 
   return (
     <>
