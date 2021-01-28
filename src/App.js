@@ -3,8 +3,9 @@ import './App.css';
 // import UseState from "./examples/useState";
 // import UseEffect from "./examples/useEffect";
 // import UseRef from "./examples/useRef";
-import UseMemo from "./examples/useMemo";
-import UseCallback from "./examples/useCallback";
+// import UseMemo from "./examples/useMemo";
+// import UseCallback from "./examples/useCallback";
+import UseContext from "./examples/useContext";
 
 
 function App() {
@@ -14,7 +15,8 @@ function App() {
       {/*<UseEffect />*/}
       {/*<UseRef />*/}
       {/*<UseMemo />*/}
-      <UseCallback />
+      {/*<UseCallback />*/}
+      <UseContext />
     </div>
   );
 }
